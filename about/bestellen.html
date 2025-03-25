@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestellen</title>
+    <link rel="stylesheet" href="../css/bestellen.css">
+</head>
+<script src="../javascript/shopingkart.js"></script>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../about/bestellen.html">Bestellen</a>
+        <a href="../about/overons.html">Over ons</a>
+        <a href="../about/contact.html">Contact</a>
+        <a href="../about/reviews.html">Reviews</a>
+    </nav>
+    
+    <section id="sandwiches">
+        <div class="container">
+            <div class="sandwich">
+                <h2>De "100% kans op obesitas"</h2>
+                <img src="../images/obesitas.jpg" alt="Grote Sandwich"class="fixed-image">
+                <p>Niemand heeft deze sandwich overleeft. behalve jeltes moeder.</p>
+                <button class="buy-button" onclick="addToCart('100% kans op obesitas Sandwich', 29.99)">€29,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Bananenketchup Pasta Cracker Rijst & Bonen" Sandwich</h2>
+                <img src="../images/masterpiece.jpg"class="fixed-image">
+                <p>Meesterwerk</p>
+                <button class="buy-button" onclick="addToCart('Bananenketchup Pasta Cracker Rijst & Bonen Sandwich', 7.99)">€7,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Prototype 1: Pindakaas en Jam" Sandwich</h2>
+                <img src="../images/PPBenJ.jpg"class="fixed-image">
+                <p>Een PB&J in zijn rauwste vorm—druiven die weigeren geplet te worden en pinda's die nog in ontkenning leven. Een culinair misdrijf.</p>
+                <button class="buy-button" onclick="addToCart('Prototype 1: Pindakaas en Jam Sandwich', 1.49)">€1,49</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Pindakaas en Jam" Sandwich</h2>
+                <img src="../images/PBenJ.jpg"class="fixed-image">
+                <p>Meest normale sandwich van ze allemaal</p>
+                <button class="buy-button" onclick="addToCart('Pindakaas en Jam Sandwich', 2.99)">€2,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "MODERNE Pindakaas en Jam" Sandwich</h2>
+                <img src="../images/MPBenJ.jpg"class="fixed-image">
+                <p>Minimalistisch, steriel en volledig onethisch. Dit is geen sandwich, dit is een simulatie. Alsof een AI probeerde te begrijpen wat een PB&J is… en volledig faalde.</p>
+                <button class="buy-button" onclick="addToCart('MODERNE Pindakaas en Jam Sandwich', 5.99)">€5,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Pindakaas met Augurk" Sandwich</h2>
+                <img src="../images/PBPickle.jpg"class="fixed-image">
+                <p>Een creatie uit hell. Somige mensen eten dit gewoon🤮.</p>
+                <button class="buy-button" onclick="addToCart('Ik ben gezond Sandwich', 4.99)">€4,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Gezonde longen" Sandwich</h2>
+                <img src="../images/rook.jpg" alt="Salami Sandwich" class="fixed-image">
+                <p>Een perfecte sandwich voor rokers.</p>
+                <button class="buy-button" onclick="addToCart('Salami Sandwich', 15.99)">€15,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Tooth Cheese" Sandwich</h2>
+                <img src="../images/tandpasta.jpg"class="fixed-image">
+                <p>Gezond, Lekker en maakt je tanden schoon!</p>
+                <button class="buy-button" onclick="addToCart('Tooth Cheese Sandwich', 3.99)">€3,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Carrot Ginger Tea" Sandwich</h2>
+                <img src="../images/ginger.jpg"class="fixed-image">
+                <p>Deze sandwich geeft je ebola. Het bevat 100% kanker en heeft een lekkere gember achtige nasmaak. Je wel uitkijken want het bevat rode voetende peppers!</p>
+                <button class="buy-button" onclick="addToCart('Carrot Ginger Tea Sandwich', 3.99)">€3,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Moldy" Sandwich</h2>
+                <img src="../images/moldy.jpg"class="fixed-image">
+                <p>Niet Gezond, Niet Lekker en maakt niet je tanden schoon!</p>
+                <button class="buy-button" onclick="addToCart('Moldy Sandwich', 0.99)">€0,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Fresh out of the oven" Sandwich</h2>
+                <img src="../images/baby.jpg"class="fixed-image">
+                <p>Armel Karsten in klas l4v wilde dit op de menu. Facking gaar kind.</p>
+                <button class="buy-button" onclick="addToCart('Fresh out of the oven', 374,99)">€374,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Voeten met bloemen"</h2>
+                <img src="../images/voeten-met-bloemen.jpg"class="fixed-image">
+                <p>Jelte Gelijk in klas l4v wilde dit op de menu. Facking raar kind.</p>
+                <button class="buy-button" onclick="addToCart('Voeten met bloemen', 79,99)">€79,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Flying" Sandwich</h2>
+                <img src="../images/fly.jpg"class="fixed-image">
+                <p>Kijk uit het kan duivenkak bevatten!</p>
+                <button class="buy-button" onclick="addToCart('Flying Sandwich', 14.99)">€14,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Extra Kaas" Sandwich</h2>
+                <img src="../images/kaas.jpg"class="fixed-image">
+                <p>Dat is niet genoeg kaas.</p>
+                <button class="buy-button" onclick="addToCart('Extra Kaas Sandwich', 5.99)">€5,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Extra Brood" Sandwich</h2>
+                <img src="../images/brood.jpg"class="fixed-image">
+                <p>Dat is niet genoeg brood.</p>
+                <button class="buy-button" onclick="addToCart('Extra Brood Sandwich', 3.99)">€3,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Cheetos" Sandwich</h2>
+                <img src="../images/cheetos.jpg"class="fixed-image">
+                <p>Het is een lunch die je handen oranje maakt, maar je maag achterlaat met spijt. Het is een snack met extra crunch... en een beetje schaamte.</p>
+                <button class="buy-button" onclick="addToCart('Cheetos Sandwich', 4.49)">€4,49</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "FeetWich" Sandwich</h2>
+                <img src="../images/feetwich,jpg.jpg"class="fixed-image">
+                <p>Smeuige</p>
+                <button class="buy-button" onclick="addToCart('FeetWich Sandwich', 2.99)">€2,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "EGG Sandwich"</h2>
+                <img src="../images/egg.jpg" alt="Egg Sandwich" class="fixed-image">
+                <p>Een ei, gewoon een ei, tussen twee sneetjes brood. Verwacht geen magie, maar wel een stevige maaltijd.</p>
+                <button class="buy-button" onclick="addToCart('EGG Sandwich', 2.99)">€2,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Werkloosheid" Sandwich</h2>
+                <img src="../images/arm.jpg" alt="Sandwich 3"class="fixed-image">
+                <p>De titel zegt het al voor... Ons meest goedkoopste sandwich!</p>
+                <button class="buy-button" onclick="addToCart('Werkloosheid Sandwich', 0.01)">€0,01</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Gayernator" Sandwich</h2>
+                <img src="../images/gay.jpg" alt="Sandwich 3"class="fixed-image">
+                <p>Deze sandwich zorgt ervoor dat je uit de kast komt. 99% kans op gekleurd haar!</p>
+                <button class="buy-button" onclick="addToCart('Gayernator Sandwich', 6.99)">€6,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Ik ben gezond" Sandwich</h2>
+                <img src="../images/gezond.jpg"class="fixed-image">
+                <p>Een hele lekkere sandwich.</p>
+                <button class="buy-button" onclick="addToCart('Ik ben gezond Sandwich', 3.99)">€3,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Choco Musli" Sandwich</h2>
+                <img src="../images/cerial.jpg"class="fixed-image">
+                <p>Leuk voor de ontbijt, vreselijk voor de vloer.</p>
+                <button class="buy-button" onclick="addToCart('Ik hou van lebron', 4.69)">€4,69</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Floor" Sandwich</h2>
+                <img src="../images/Floor.jpg"class="fixed-image">
+                <p>We hebben deze laten vallen terwijl we het maakte.</p>
+                <button class="buy-button" onclick="addToCart('Floor', 3.99)">€3,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Volty" Sandwich</h2>
+                <img src="../images/Volty.jpg"class="fixed-image">
+                <p>Deze sandwich zal je laten schokken! (Wij zijn op geen enkele manier verantwoordelijk voor schokken, kortsluiting, ontploffingen, spontane combustie, magnetische bijwerkingen, radioactieve straling, tijdreizen, parallelle dimensies, telepathische connecties, onverwachte superkrachten, spontane mutaties, cybernetische integratie, plotselinge technologische verlichting, het hacken van de Matrix, communicatie met buitenaardse wezens, het opladen van apparaten met je blote handen, het ontwikkelen van een nieuwe taal, ongecontroleerde teleportatie, of enige andere chaos, anomalieën of realiteitsbreuken veroorzaakt door de Batterij Sandwich™.)</p>
+                <button class="buy-button" onclick="addToCart('Floor', 6.99)">€6,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Lebron's Sloppy Joe" Sandwich</h2>
+                <img src="../images/chum.jpg"class="fixed-image">
+                <p>uuuh... we hebben.. (wtf moet ik hier verzinnen) ... lebron heeft hier in gespugt.</p>
+                <button class="buy-button" onclick="addToCart('Lebron pp rider..', 99.99)">€99,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Germaanse" Sandwich</h2>
+                <img src="../images/Hitler.jpg"class="fixed-image">
+                <p>Als je je ogen bijna dicht doet zie je de liefde van de duiste volk!</p>
+                <button class="buy-button" onclick="addToCart('NEIN NEIN NEIN', 19.45)">€19,45</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Egg cone" Sandwich</h2>
+                <img src="../images/eggcream.jpg"class="fixed-image">
+                <p>Een ei tussen 2 ijskoontjes.</p>
+                <button class="buy-button" onclick="addToCart('Egg cone', 8.99)">€8,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Triwich"</h2>
+                <img src="../images/triwich.jpg"class="fixed-image">
+                <p>Sandwich³</p>
+                <button class="buy-button" onclick="addToCart('Sandwhich³', 2.99)">€2,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Quadwich"</h2>
+                <img src="../images/quadwich.jpg"class="fixed-image">
+                <p>Sandwich⁴</p>
+                <button class="buy-button" onclick="addToCart('Sandwhich⁴', 5,99)">€5,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Pentawich"</h2>
+                <img src="../images/pentawich.jpg"class="fixed-image">
+                <p>Sandwich⁵</p>
+                <button class="buy-button" onclick="addToCart('Sandwhich⁵', 11,99)">€11,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Lasagnich"</h2>
+                <img src="../images/Lasagne.jpg"class="fixed-image">
+                <p>Een lasagne met sandwich</p>
+                <button class="buy-button" onclick="addToCart('Lasagnich', 5,99)">€5,99</button>
+            </div>
+            <div class="sandwich">
+                <h2>De "Caught in 4k"</h2>
+                <img src="../images/Jelte gay.png"class="fixed-image">
+                <p>Kijk naar deze gast die uit de kast komt.</p>
+                <button class="buy-button" onclick="addToCart('gay', 0,99)">€0,99</button>
+            </div>
+            
+            
+
+        </div>
+</section>
+
+<div class="cart-icon" onclick="toggleCart()">
+    🛒
+    <span class="cart-count">0</span>
+</div>
+
+<div class="cart-modal">
+    <h3>Winkelwagen</h3>
+    <div id="cart-items"></div>
+    <div class="cart-total">Totaal: €<span id="cart-total">0.00</span></div>
+    <button class="buy-button" onclick="checkout()">Afrekenen</button>
+</div>
+    
+</body>
+</html>

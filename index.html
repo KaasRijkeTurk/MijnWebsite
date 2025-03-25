@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwich</title>
+    <link rel="stylesheet" href="../Sandwich/css/style.css">
+    <style>
+    </style>
+</head>
+<script src="../Sandwich/javascript/shopingkart.js"></script>
+<body>
+
+<header>
+    <img src="../Sandwich/images/logo.jpg" alt="Mijn Logo" class="logo">
+
+</header>
+
+<nav>
+    <a href="../Sandwich/index.html">Home</a>
+    <a href="../Sandwich/about/bestellen.html">Bestellen</a>
+    <a href="../Sandwich/about/overons.html">Over ons</a>
+    <a href="../Sandwich/about/contact.html">Contact</a>
+    <a href="../Sandwich/about/reviews.html">Reviews</a>
+</nav>
+<section id="intro">
+    <div class="intro-container">
+        <h1>Welkom bij de Turkish Sandwich Shop!</h1>
+        <p>Ontdek de meest unieke en walgelijke sandwiches die je ooit hebt geproefd. Van klassiekers tot demonische creaties, we hebben voor ieder een ding! Kies jouw favoriet en bestel snel online.</p>
+        <button class="cta-button"><a href="../Sandwich/about/bestellen.html">Bestel nu!</a></button>
+        <p>Bezoek onze <a href="https://www.youtube.com/@KaasRijkeTurk/community">Posts</a> om reviews te sturen en suggesties voor nieuwe sandwiches aan te raden!</p>
+    </div>
+</section>
+
+<!-- winkelwagen -->
+<div class="cart-icon" onclick="toggleCart()">
+    🛒
+    <span class="cart-count">0</span>
+</div>
+
+<div class="cart-modal">
+    <h3>Winkelwagen</h3>
+    <div id="cart-items"></div>
+    <div class="cart-total">Totaal: €<span id="cart-total">0.00</span></div>
+    <button class="buy-button" onclick="checkout()">Afrekenen</button>
+</div>
+</body>
+</html>
